@@ -1,0 +1,23 @@
+  1)	Transporte Urbano.
+1 – Usuário – Estados: pagante ou não pagante, estudante ou não estudante; Atributos: nome, idade.
+2 – Ônibus – Atributos: Id, capacidade, conjunto de usuário.
+3 – Paradas – Atributos: Id, local;
+4 – linhas – Atributos: Nome, Conjunto de ônibus, Conjuntos de paradas organizadas de acordo com sua localização.
+
+  2)	Sistema Controle de Autorização/Autenticação/Permissões.
+1 – Usuário – Id, nome, passwd, conjunto de permissões.
+2 – Permissões – Id, Nome.
+3 – Autorização – Estado: Usuário autenticado ou não; Atributos: Classificação, Usuário, conjunto de permissões obrigatórias; Checa se o usuário possui essas permissões.  	
+
+  3)	Transporte Aéreo.
+1 – Usuário – Atributos: Id, nome, idade.
+2 – Avião – Atributos: Id, capacidade, conjunto de usuário.
+3 – Aeroportos – Atributos: Id, local.
+4 – Escala – Nome, conjunto de aeroportos.
+5 – Percurso – Atributos: Nome, avião, escala.
+
+  4)	Programa fidelidade/recompensa/resgate.
+1 – Usuário – Id, nome, fidelidade, conjuntos de recompensa.
+2 – Fidelidade – Classificação.
+3 – Recompensa – Estado: recompensa resgatada sim ou não; Atributos: nome, usuário, valor.
+
