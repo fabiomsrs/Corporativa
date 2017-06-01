@@ -68,4 +68,22 @@ public class Usuario {
     public void responderComentario(Comentario comentario, Resposta resposta){
         comentario.setRespostas(resposta);
     }
+    
+    public void darLike(Post liked){
+        Like like = new Like();
+        like.setUsuarioCriador(this);
+        liked.setLikes(like);
+    }
+    
+    public void darLike(Comentario liked){
+        Like like = new Like();
+        like.setUsuarioCriador(this);
+        liked.setLikes(like);
+    }
+    public void darLike(Resposta liked){
+        Like like = new Like();
+        like.setUsuarioCriador(this);
+        liked.setLikes(like);
+    }
+    
 }

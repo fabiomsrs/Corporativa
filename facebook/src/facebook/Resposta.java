@@ -6,6 +6,7 @@
 package facebook;
 
 import java.util.Calendar;
+import java.util.List;
 
 /**
  *
@@ -15,6 +16,15 @@ public class Resposta {
     String Conteudo;
     Calendar data;
     Usuario usuarioCriador;
+    List<Like> likes;
+
+    public List<Like> getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Like like) {
+        this.likes.add(like);
+    }
 
     public String getConteudo() {
         return Conteudo;

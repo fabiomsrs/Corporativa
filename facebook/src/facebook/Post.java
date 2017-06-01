@@ -16,6 +16,15 @@ public class Post {
     Usuario usuarioCriador;
     Calendar data;
     String conteudo;
+    List<Like> likes;
+
+    public List<Like> getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Like like) {
+        this.likes.add(like);
+    }
     List<Comentario> comentarios;        
 
     public Usuario getUsuarioCriador() {

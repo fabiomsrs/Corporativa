@@ -12,8 +12,17 @@ import java.util.List;
  * @author aluno
  */
 public class Grupo {
+    List<Usuario> admin;
     List<Usuario> usuarios;
     LinhaDoTempo linha;
+
+    public List<Usuario> getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(List<Usuario> admin) {
+        this.admin = admin;
+    }
 
     public List<Usuario> getUsuarios() {
         return usuarios;

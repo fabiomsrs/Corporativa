@@ -16,6 +16,15 @@ public class Comentario {
     String Conteudo;
     Calendar data;
     Usuario usuarioCriador;
+    List<Like> likes;
+
+    public List<Like> getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Like like) {
+        this.likes.add(like);
+    }
     List<Resposta> respostas;
 
     public String getConteudo() {
