@@ -12,10 +12,10 @@ import java.util.List;
  * @author aluno
  */
 public class Usuario {
-    String nome;
-    String email;
-    List<Usuario> amizades;
-    LinhaDoTempo linha;
+    private String nome;
+    private String email;
+    private List<Usuario> amizades;
+    private LinhaDoTempo linha;
 
     public String getNome() {
         return nome;

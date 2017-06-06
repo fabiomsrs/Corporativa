@@ -12,11 +12,11 @@ import java.util.List;
  *
  * @author aluno
  */
-public class Comentario {
-    String Conteudo;
-    Calendar data;
-    Usuario usuarioCriador;
-    List<Like> likes;
+public class Resposta {
+    private String Conteudo;
+    private Calendar data;
+    private Usuario usuarioCriador;
+    private List<Like> likes;
 
     public List<Like> getLikes() {
         return likes;
@@ -25,7 +25,6 @@ public class Comentario {
     public void setLikes(Like like) {
         this.likes.add(like);
     }
-    List<Resposta> respostas;
 
     public String getConteudo() {
         return Conteudo;
@@ -49,13 +48,5 @@ public class Comentario {
 
     public void setUsuarioCriador(Usuario usuarioCriador) {
         this.usuarioCriador = usuarioCriador;
-    }
-
-    public List<Resposta> getRespostas() {
-        return respostas;
-    }
-
-    public void setRespostas(Resposta resposta) {
-        this.respostas.add(resposta);
     }
 }

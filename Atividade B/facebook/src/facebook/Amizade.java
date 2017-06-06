@@ -10,8 +10,8 @@ package facebook;
  * @author aluno
  */
 public class Amizade {
-    Usuario usuario;
-    String classificacao;
+    private Usuario usuario;
+    private String classificacao;
 
     public Usuario getUsuario() {
         return usuario;

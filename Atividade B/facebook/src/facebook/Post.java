@@ -13,10 +13,10 @@ import java.util.List;
  * @author aluno
  */
 public class Post {
-    Usuario usuarioCriador;
-    Calendar data;
-    String conteudo;
-    List<Like> likes;
+    private Usuario usuarioCriador;
+    private Calendar data;
+    private String conteudo;
+    private List<Like> likes;
 
     public List<Like> getLikes() {
         return likes;

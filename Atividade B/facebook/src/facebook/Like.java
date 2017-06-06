@@ -11,15 +11,15 @@ package facebook;
  * @author Fabrício
  */
 public class Like {
-    private String classificao;
+    private ClassificacaoLike classificacao;
     private Usuario usuarioCriador;
 
-    public String getClassificao() {
-        return classificao;
+    public ClassificacaoLike getClassificao() {
+        return classificacao;
     }
 
-    public void setClassificao(String classificao) {
-        this.classificao = classificao;
+    public void setClassificao(ClassificacaoLike classificacao) {
+        this.classificacao = classificacao;
     }
 
     public Usuario getUsuarioCriador() {

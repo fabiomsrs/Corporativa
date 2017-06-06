@@ -10,8 +10,8 @@ package facebook;
  * @author aluno
  */
 public class Perfil {
-    Object usuario;// esse objeto pode ser um grupo ou um usuario
-    LinhaDoTempo linha;
+    private Object usuario;// esse objeto pode ser um grupo ou um usuario
+    private LinhaDoTempo linha;
     
     public Object getUsuario() {
         return usuario;
